@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #if !defined(k_extern)
 #  if defined(__cplusplus)

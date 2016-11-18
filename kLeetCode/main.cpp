@@ -9,12 +9,14 @@
 #include <iostream>
 
 #include "twoSum.h"
+#include "addTwoNumbers.h"
 #include "findMedianSortedArrays.h"
 
 int main(int argc, const char * argv[]) {
     
 //    test_twoSum();
-    test_findMedianSortedArrays();
+    test_addTwoNumbers();
+//    test_findMedianSortedArrays();
     
     return 0;
 }
