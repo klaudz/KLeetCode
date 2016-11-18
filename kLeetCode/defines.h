@@ -9,6 +9,9 @@
 #ifndef defines_h
 #define defines_h
 
+#include <stdio.h>
+#include <stdlib.h>
+
 #if !defined(k_extern)
 #  if defined(__cplusplus)
 #    define k_extern extern "C"

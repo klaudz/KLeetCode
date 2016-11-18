@@ -9,8 +9,6 @@
 #ifndef twoSum_h
 #define twoSum_h
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "defines.h"
 
 k_extern
