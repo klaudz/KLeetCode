@@ -8,8 +8,11 @@
 
 #include <iostream>
 
+#include "twoSum.h"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    test_twoSum();
+    
     return 0;
 }
