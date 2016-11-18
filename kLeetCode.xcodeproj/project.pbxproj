@@ -11,6 +11,7 @@
 		633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8E91DDED56D0019B124 /* twoSum.c */; };
 		633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */; };
 		633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8F01DDEDF600019B124 /* addTwoNumbers.c */; };
+		6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 6378A66A1DDF2C820063BA37 /* reverseInteger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findMedianSortedArrays.h; sourceTree = "<group>"; };
 		633BD8F01DDEDF600019B124 /* addTwoNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = addTwoNumbers.c; sourceTree = "<group>"; };
 		633BD8F11DDEDF600019B124 /* addTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addTwoNumbers.h; sourceTree = "<group>"; };
+		6378A66A1DDF2C820063BA37 /* reverseInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverseInteger.c; sourceTree = "<group>"; };
+		6378A66B1DDF2C820063BA37 /* reverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseInteger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				633BD8F11DDEDF600019B124 /* addTwoNumbers.h */,
 				633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */,
 				633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */,
+				6378A66A1DDF2C820063BA37 /* reverseInteger.c */,
+				6378A66B1DDF2C820063BA37 /* reverseInteger.h */,
 			);
 			path = kLeetCode;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */,
 				633BD8E31DDED53A0019B124 /* main.cpp in Sources */,
 				633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */,
+				6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 				633BD8E81DDED53A0019B124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

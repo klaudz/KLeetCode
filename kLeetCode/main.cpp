@@ -11,12 +11,14 @@
 #include "twoSum.h"
 #include "addTwoNumbers.h"
 #include "findMedianSortedArrays.h"
+#include "reverseInteger.h"
 
 int main(int argc, const char * argv[]) {
     
 //    test_twoSum();
-    test_addTwoNumbers();
+//    test_addTwoNumbers();
 //    test_findMedianSortedArrays();
+    test_reverseInteger();
     
     return 0;
 }
