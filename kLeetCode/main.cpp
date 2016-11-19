@@ -13,6 +13,7 @@
 #include "findMedianSortedArrays.h"
 #include "reverseInteger.h"
 #include "longestCommonPrefix.h"
+#include "removeElement.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -20,7 +21,8 @@ int main(int argc, const char * argv[]) {
 //    test_addTwoNumbers();
 //    test_findMedianSortedArrays();
 //    test_reverseInteger();
-    test_longestCommonPrefix();
+//    test_longestCommonPrefix();
+    test_removeElement();
     
     return 0;
 }
