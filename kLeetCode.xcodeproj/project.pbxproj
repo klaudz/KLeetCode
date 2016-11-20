@@ -57,6 +57,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		632438E51DE1E4AF00BA9B6C /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				633BD8E91DDED56D0019B124 /* twoSum.c */,
+				633BD8EA1DDED56D0019B124 /* twoSum.h */,
+				633BD8F01DDEDF600019B124 /* addTwoNumbers.c */,
+				633BD8F11DDEDF600019B124 /* addTwoNumbers.h */,
+				633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */,
+				633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */,
+				6378A66A1DDF2C820063BA37 /* reverseInteger.c */,
+				6378A66B1DDF2C820063BA37 /* reverseInteger.h */,
+				6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */,
+				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
+				632438E21DE022D600BA9B6C /* removeElement.c */,
+				632438E31DE022D600BA9B6C /* removeElement.h */,
+			);
+			name = Problems;
+			sourceTree = "<group>";
+		};
+		632438E61DE1E4E400BA9B6C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				633BD8EC1DDEDCF60019B124 /* defines.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		633BD8D61DDED53A0019B124 = {
 			isa = PBXGroup;
 			children = (
@@ -76,20 +103,9 @@
 		633BD8E11DDED53A0019B124 /* kLeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				633BD8EC1DDEDCF60019B124 /* defines.h */,
 				633BD8E21DDED53A0019B124 /* main.cpp */,
-				633BD8E91DDED56D0019B124 /* twoSum.c */,
-				633BD8EA1DDED56D0019B124 /* twoSum.h */,
-				633BD8F01DDEDF600019B124 /* addTwoNumbers.c */,
-				633BD8F11DDEDF600019B124 /* addTwoNumbers.h */,
-				633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */,
-				633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */,
-				6378A66A1DDF2C820063BA37 /* reverseInteger.c */,
-				6378A66B1DDF2C820063BA37 /* reverseInteger.h */,
-				6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */,
-				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
-				632438E21DE022D600BA9B6C /* removeElement.c */,
-				632438E31DE022D600BA9B6C /* removeElement.h */,
+				632438E61DE1E4E400BA9B6C /* Common */,
+				632438E51DE1E4AF00BA9B6C /* Problems */,
 			);
 			path = kLeetCode;
 			sourceTree = "<group>";
