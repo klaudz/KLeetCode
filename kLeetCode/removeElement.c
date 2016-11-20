@@ -9,7 +9,7 @@
 #include "removeElement.h"
 #include "sorts.h"
 
-#define Resolve 1
+#define Resolve 2
 
 #if Resolve == 0
 
@@ -48,6 +48,18 @@ int removeElement(int *nums, int numsSize, int val) {
     }
     if (firstIndex >= 0) numsSize -= (endIndex - firstIndex + 1);
     return numsSize;
+}
+
+#elif Resolve == 2
+
+int removeElement(int *nums, int numsSize, int val) {
+    int newSize = 0;
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i] != val) {
+            nums[newSize++] = nums[i];
+        }
+    }
+    return newSize;
 }
 
 #endif
