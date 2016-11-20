@@ -7,6 +7,11 @@
 //
 
 #include "removeElement.h"
+#include "sorts.h"
+
+#define Resolve 1
+
+#if Resolve == 0
 
 int removeElement(int *nums, int numsSize, int val) {
     
@@ -23,6 +28,29 @@ int removeElement(int *nums, int numsSize, int val) {
     }
     return numsSize;
 }
+
+#elif Resolve == 1
+
+int removeElement(int *nums, int numsSize, int val) {
+    quickSort(nums, numsSize);
+    int firstIndex = -1, endIndex = -1;
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i] == val) {
+            if (firstIndex == -1) firstIndex = i;
+            endIndex = i;
+        } else if (nums[i] > val) {
+            if (firstIndex >= 0) {
+                nums[firstIndex + (i - endIndex - 1)] = nums[i];
+            } else {
+                break;
+            }
+        }
+    }
+    if (firstIndex >= 0) numsSize -= (endIndex - firstIndex + 1);
+    return numsSize;
+}
+
+#endif
 
 void test_removeElement()
 {
