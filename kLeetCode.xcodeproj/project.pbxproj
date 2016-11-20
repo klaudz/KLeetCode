@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		632438E41DE022D600BA9B6C /* removeElement.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438E21DE022D600BA9B6C /* removeElement.c */; };
+		632438E91DE1EEF300BA9B6C /* sorts.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438E71DE1EEF300BA9B6C /* sorts.c */; };
+		632438EF1DE20AF900BA9B6C /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438ED1DE20AF900BA9B6C /* debug.c */; };
 		633BD8E31DDED53A0019B124 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8E21DDED53A0019B124 /* main.cpp */; };
 		633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8E91DDED56D0019B124 /* twoSum.c */; };
 		633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */; };
@@ -31,6 +33,10 @@
 /* Begin PBXFileReference section */
 		632438E21DE022D600BA9B6C /* removeElement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = removeElement.c; sourceTree = "<group>"; };
 		632438E31DE022D600BA9B6C /* removeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = removeElement.h; sourceTree = "<group>"; };
+		632438E71DE1EEF300BA9B6C /* sorts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sorts.c; sourceTree = "<group>"; };
+		632438E81DE1EEF300BA9B6C /* sorts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorts.h; sourceTree = "<group>"; };
+		632438ED1DE20AF900BA9B6C /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		632438EE1DE20AF900BA9B6C /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		633BD8DF1DDED53A0019B124 /* kLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		633BD8E21DDED53A0019B124 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		633BD8E91DDED56D0019B124 /* twoSum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twoSum.c; sourceTree = "<group>"; };
@@ -80,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				633BD8EC1DDEDCF60019B124 /* defines.h */,
+				632438E71DE1EEF300BA9B6C /* sorts.c */,
+				632438E81DE1EEF300BA9B6C /* sorts.h */,
+				632438ED1DE20AF900BA9B6C /* debug.c */,
+				632438EE1DE20AF900BA9B6C /* debug.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -170,6 +180,8 @@
 				633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */,
 				633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */,
 				633BD8E31DDED53A0019B124 /* main.cpp in Sources */,
+				632438EF1DE20AF900BA9B6C /* debug.c in Sources */,
+				632438E91DE1EEF300BA9B6C /* sorts.c in Sources */,
 				633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */,
 				632438E41DE022D600BA9B6C /* removeElement.c in Sources */,
 				6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */,
