@@ -10,19 +10,27 @@
 
 int firstMissingPositive(int *nums, int numsSize) {
     
-    size_t memsize = sizeof(bool) * numsSize;
-    bool *b = malloc(memsize);
-    memset(b, false, memsize);
+    // Note:
+    //  If 'bool', 'true' and 'false' are used to malloc an boolean array,
+    //  LeetCode would judge that the case below is wrong answer.
+    //  Case:
+    //      Input: { 1 }
+    //      Output: 7
+    //      Expect: 2
+    
+    size_t memsize = sizeof(char) * numsSize;
+    char *b = malloc(memsize);
+    memset(b, 0, memsize);
     
     for (int i = 0; i < numsSize; i++) {
         int val = nums[i];
         if (val > 0 && val < numsSize + 1) {
-            b[val-1] = true;
+            b[val-1] = 1;
         }
     }
     
     int j = 0;
-    while (b[j]) {
+    while (b[j] == 1) {
         j++;
     }
     return j + 1;
