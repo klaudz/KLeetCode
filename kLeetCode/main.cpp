@@ -12,6 +12,7 @@
 #include "addTwoNumbers.h"
 #include "lengthOfLongestSubstring.h"
 #include "findMedianSortedArrays.h"
+#include "longestPalindrome.h"
 #include "reverseInteger.h"
 #include "longestCommonPrefix.h"
 #include "removeElement.h"
@@ -20,8 +21,9 @@ int main(int argc, const char * argv[]) {
     
 //    test_twoSum();
 //    test_addTwoNumbers();
-    test_lengthOfLongestSubstring();
+//    test_lengthOfLongestSubstring();
 //    test_findMedianSortedArrays();
+    test_longestPalindrome();
 //    test_reverseInteger();
 //    test_longestCommonPrefix();
 //    test_removeElement();
