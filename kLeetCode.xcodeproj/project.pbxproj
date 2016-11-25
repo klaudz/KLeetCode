@@ -18,6 +18,7 @@
 		6378A66F1DDF43B00063BA37 /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */; };
 		63D9CD741DE8427F002D5652 /* lengthOfLongestSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */; };
 		63D9CD7A1DE889FA002D5652 /* longestPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD781DE889FA002D5652 /* longestPalindrome.c */; };
+		63D9CD7D1DE89A52002D5652 /* firstMissingPositive.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,8 @@
 		63D9CD761DE85E53002D5652 /* lengthOfLongestSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lengthOfLongestSubstring.h; sourceTree = "<group>"; };
 		63D9CD781DE889FA002D5652 /* longestPalindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = longestPalindrome.c; sourceTree = "<group>"; };
 		63D9CD791DE889FA002D5652 /* longestPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestPalindrome.h; sourceTree = "<group>"; };
+		63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = firstMissingPositive.c; sourceTree = "<group>"; };
+		63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstMissingPositive.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				63D9CD761DE85E53002D5652 /* lengthOfLongestSubstring.h */,
 				63D9CD781DE889FA002D5652 /* longestPalindrome.c */,
 				63D9CD791DE889FA002D5652 /* longestPalindrome.h */,
+				63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */,
+				63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D9CD7D1DE89A52002D5652 /* firstMissingPositive.c in Sources */,
 				633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */,
 				633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */,
 				633BD8E31DDED53A0019B124 /* main.cpp in Sources */,

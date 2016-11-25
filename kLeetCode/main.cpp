@@ -16,6 +16,7 @@
 #include "reverseInteger.h"
 #include "longestCommonPrefix.h"
 #include "removeElement.h"
+#include "firstMissingPositive.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -23,10 +24,11 @@ int main(int argc, const char * argv[]) {
 //    test_addTwoNumbers();
 //    test_lengthOfLongestSubstring();
 //    test_findMedianSortedArrays();
-    test_longestPalindrome();
+//    test_longestPalindrome();
 //    test_reverseInteger();
 //    test_longestCommonPrefix();
 //    test_removeElement();
+    test_firstMissingPositive();
     
     return 0;
 }
