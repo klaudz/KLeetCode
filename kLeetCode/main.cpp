@@ -10,6 +10,7 @@
 
 #include "twoSum.h"
 #include "addTwoNumbers.h"
+#include "lengthOfLongestSubstring.h"
 #include "findMedianSortedArrays.h"
 #include "reverseInteger.h"
 #include "longestCommonPrefix.h"
@@ -19,10 +20,11 @@ int main(int argc, const char * argv[]) {
     
 //    test_twoSum();
 //    test_addTwoNumbers();
+    test_lengthOfLongestSubstring();
 //    test_findMedianSortedArrays();
 //    test_reverseInteger();
 //    test_longestCommonPrefix();
-    test_removeElement();
+//    test_removeElement();
     
     return 0;
 }

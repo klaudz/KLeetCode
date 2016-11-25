@@ -10,29 +10,40 @@
 
 int lengthOfLongestSubstring(char *s) {
     
-    int maxLength = 0;
+    int lmax = 0;
     int i = 0, j = 0;
     while (s[j] != 0) {
-        if (i == j) {
-            j++;
-        } else if (s[i] == s[j]) {
-            int length = j - i;
-            char *substring = malloc(sizeof(char) * (length + 1));
-            memcpy(substring, s+i, length);
-            substring[length] = 0;
-            printf("%s\n", substring);
-            if (length > maxLength) maxLength = length;
-            i++;
-        } else {
-            j++;
+        int it = i;
+        int k = j - 1;
+        while (k >= i) {
+            if (s[k] == s[j]) {
+                int l = j - k;
+                if (l > lmax) {
+                    lmax = l;
+                }
+                i = k + 1;
+                break;
+            }
+            k--;
         }
+        if (it == i) {
+            int l = j - i + 1;
+            if (l > lmax) {
+                lmax = l;
+            }
+        }
+        j++;
     }
-    return maxLength;
+    return lmax;
 }
 
 void test_lengthOfLongestSubstring()
 {
-//    printf("%d\n", lengthOfLongestSubstring("abcabcbb"));
-//    printf("%d\n", lengthOfLongestSubstring("bbbbb"));
+    printf("%d\n", lengthOfLongestSubstring(""));
+    printf("%d\n", lengthOfLongestSubstring("c"));
+    printf("%d\n", lengthOfLongestSubstring("ab"));
+    printf("%d\n", lengthOfLongestSubstring("cdd"));
+    printf("%d\n", lengthOfLongestSubstring("abcabcbb"));
+    printf("%d\n", lengthOfLongestSubstring("bbbbb"));
     printf("%d\n", lengthOfLongestSubstring("pwwkew"));
 }

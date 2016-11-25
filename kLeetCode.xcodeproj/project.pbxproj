@@ -16,6 +16,7 @@
 		633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8F01DDEDF600019B124 /* addTwoNumbers.c */; };
 		6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 6378A66A1DDF2C820063BA37 /* reverseInteger.c */; };
 		6378A66F1DDF43B00063BA37 /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */; };
+		63D9CD741DE8427F002D5652 /* lengthOfLongestSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		6378A66B1DDF2C820063BA37 /* reverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseInteger.h; sourceTree = "<group>"; };
 		6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = longestCommonPrefix.c; sourceTree = "<group>"; };
 		6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestCommonPrefix.h; sourceTree = "<group>"; };
+		63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lengthOfLongestSubstring.c; sourceTree = "<group>"; };
+		63D9CD761DE85E53002D5652 /* lengthOfLongestSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lengthOfLongestSubstring.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
 				632438E21DE022D600BA9B6C /* removeElement.c */,
 				632438E31DE022D600BA9B6C /* removeElement.h */,
+				63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */,
+				63D9CD761DE85E53002D5652 /* lengthOfLongestSubstring.h */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				633BD8E31DDED53A0019B124 /* main.cpp in Sources */,
 				632438EF1DE20AF900BA9B6C /* debug.c in Sources */,
 				632438E91DE1EEF300BA9B6C /* sorts.c in Sources */,
+				63D9CD741DE8427F002D5652 /* lengthOfLongestSubstring.c in Sources */,
 				633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */,
 				632438E41DE022D600BA9B6C /* removeElement.c in Sources */,
 				6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */,
