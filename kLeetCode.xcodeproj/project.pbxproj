@@ -91,28 +91,28 @@
 				633BD8EA1DDED56D0019B124 /* twoSum.h */,
 				633BD8F01DDEDF600019B124 /* addTwoNumbers.c */,
 				633BD8F11DDEDF600019B124 /* addTwoNumbers.h */,
-				633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */,
-				633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */,
-				6378A66A1DDF2C820063BA37 /* reverseInteger.c */,
-				6378A66B1DDF2C820063BA37 /* reverseInteger.h */,
-				6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */,
-				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
-				632438E21DE022D600BA9B6C /* removeElement.c */,
-				632438E31DE022D600BA9B6C /* removeElement.h */,
 				63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */,
 				63D9CD761DE85E53002D5652 /* lengthOfLongestSubstring.h */,
+				633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */,
+				633BD8EE1DDEDE4C0019B124 /* findMedianSortedArrays.h */,
 				63D9CD781DE889FA002D5652 /* longestPalindrome.c */,
 				63D9CD791DE889FA002D5652 /* longestPalindrome.h */,
-				63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */,
-				63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */,
+				6378A66A1DDF2C820063BA37 /* reverseInteger.c */,
+				6378A66B1DDF2C820063BA37 /* reverseInteger.h */,
+				632438FC1DE9D4B000BA9B6C /* myAtoi.c */,
+				632438FD1DE9D4B000BA9B6C /* myAtoi.h */,
+				6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */,
+				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
 				632438F61DE9612600BA9B6C /* swapPairs.c */,
 				632438F71DE9612600BA9B6C /* swapPairs.h */,
 				632438F91DE9AA8F00BA9B6C /* reverseKGroup.c */,
 				632438FA1DE9AA8F00BA9B6C /* reverseKGroup.h */,
-				632438FC1DE9D4B000BA9B6C /* myAtoi.c */,
-				632438FD1DE9D4B000BA9B6C /* myAtoi.h */,
+				632438E21DE022D600BA9B6C /* removeElement.c */,
+				632438E31DE022D600BA9B6C /* removeElement.h */,
+				63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */,
+				63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */,
 			);
-			name = Problems;
+			path = Problems;
 			sourceTree = "<group>";
 		};
 		632438E61DE1E4E400BA9B6C /* Common */ = {
@@ -126,7 +126,7 @@
 				632438ED1DE20AF900BA9B6C /* debug.c */,
 				632438EE1DE20AF900BA9B6C /* debug.h */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		633BD8D61DDED53A0019B124 = {
