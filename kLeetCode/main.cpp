@@ -13,17 +13,23 @@
 #include "lengthOfLongestSubstring.h"
 #include "findMedianSortedArrays.h"
 #include "longestPalindrome.h"
+
 #include "reverseInteger.h"
 #include "myAtoi.h"
+
 #include "longestCommonPrefix.h"
-#include "removeElement.h"
+
 #include "swapPairs.h"
 #include "reverseKGroup.h"
+#include "removeElement.h"
+
+#include "searchRange.h"
+
 #include "firstMissingPositive.h"
 
 int main(int argc, const char * argv[]) {
     
-    int n = 0;
+    int n = 34;
     if (argc > 1) {
         n = myAtoi((char *)argv[1]);
     }
@@ -43,15 +49,18 @@ int main(int argc, const char * argv[]) {
         case 5:
             test_longestPalindrome();
             break;
+            
         case 7:
             test_reverseInteger();
             break;
         case 8:
             test_myAtoi();
             break;
+            
         case 14:
             test_longestCommonPrefix();
             break;
+            
         case 24:
             test_swapPairs();
             break;
@@ -61,6 +70,11 @@ int main(int argc, const char * argv[]) {
         case 27:
             test_removeElement();
             break;
+            
+        case 34:
+            test_searchRange();
+            break;
+            
         case 41:
             test_firstMissingPositive();
             break;
