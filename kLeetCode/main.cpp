@@ -16,6 +16,7 @@
 #include "reverseInteger.h"
 #include "longestCommonPrefix.h"
 #include "removeElement.h"
+#include "swapPairs.h"
 #include "firstMissingPositive.h"
 
 int main(int argc, const char * argv[]) {
@@ -28,7 +29,8 @@ int main(int argc, const char * argv[]) {
 //    test_reverseInteger();
 //    test_longestCommonPrefix();
 //    test_removeElement();
-    test_firstMissingPositive();
+    test_swapPairs();
+//    test_firstMissingPositive();
     
     return 0;
 }

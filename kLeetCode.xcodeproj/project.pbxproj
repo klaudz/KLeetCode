@@ -11,6 +11,7 @@
 		632438E91DE1EEF300BA9B6C /* sorts.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438E71DE1EEF300BA9B6C /* sorts.c */; };
 		632438EF1DE20AF900BA9B6C /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438ED1DE20AF900BA9B6C /* debug.c */; };
 		632438F51DE95F5D00BA9B6C /* structs.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438F31DE95F5D00BA9B6C /* structs.c */; };
+		632438F81DE9612600BA9B6C /* swapPairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 632438F61DE9612600BA9B6C /* swapPairs.c */; };
 		633BD8E31DDED53A0019B124 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8E21DDED53A0019B124 /* main.cpp */; };
 		633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8E91DDED56D0019B124 /* twoSum.c */; };
 		633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 633BD8ED1DDEDE4C0019B124 /* findMedianSortedArrays.c */; };
@@ -43,6 +44,8 @@
 		632438EE1DE20AF900BA9B6C /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		632438F31DE95F5D00BA9B6C /* structs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = structs.c; sourceTree = "<group>"; };
 		632438F41DE95F5D00BA9B6C /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+		632438F61DE9612600BA9B6C /* swapPairs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swapPairs.c; sourceTree = "<group>"; };
+		632438F71DE9612600BA9B6C /* swapPairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swapPairs.h; sourceTree = "<group>"; };
 		633BD8DF1DDED53A0019B124 /* kLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		633BD8E21DDED53A0019B124 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		633BD8E91DDED56D0019B124 /* twoSum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twoSum.c; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				63D9CD791DE889FA002D5652 /* longestPalindrome.h */,
 				63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */,
 				63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */,
+				632438F61DE9612600BA9B6C /* swapPairs.c */,
+				632438F71DE9612600BA9B6C /* swapPairs.h */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				632438E91DE1EEF300BA9B6C /* sorts.c in Sources */,
 				63D9CD741DE8427F002D5652 /* lengthOfLongestSubstring.c in Sources */,
 				633BD8F21DDEDF600019B124 /* addTwoNumbers.c in Sources */,
+				632438F81DE9612600BA9B6C /* swapPairs.c in Sources */,
 				632438E41DE022D600BA9B6C /* removeElement.c in Sources */,
 				6378A66C1DDF2C820063BA37 /* reverseInteger.c in Sources */,
 				6378A66F1DDF43B00063BA37 /* longestCommonPrefix.c in Sources */,
