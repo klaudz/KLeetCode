@@ -23,18 +23,52 @@
 
 int main(int argc, const char * argv[]) {
     
-//    test_twoSum();
-//    test_addTwoNumbers();
-//    test_lengthOfLongestSubstring();
-//    test_findMedianSortedArrays();
-//    test_longestPalindrome();
-//    test_reverseInteger();
-    test_myAtoi();
-//    test_longestCommonPrefix();
-//    test_removeElement();
-//    test_swapPairs();
-//    test_reverseKGroup();
-//    test_firstMissingPositive();
+    int n = 0;
+    if (argc > 1) {
+        n = myAtoi((char *)argv[1]);
+    }
+    switch (n) {
+        case 1:
+            test_twoSum();
+            break;
+        case 2:
+            test_addTwoNumbers();
+            break;
+        case 3:
+            test_lengthOfLongestSubstring();
+            break;
+        case 4:
+            test_findMedianSortedArrays();
+            break;
+        case 5:
+            test_longestPalindrome();
+            break;
+        case 7:
+            test_reverseInteger();
+            break;
+        case 8:
+            test_myAtoi();
+            break;
+        case 14:
+            test_longestCommonPrefix();
+            break;
+        case 24:
+            test_swapPairs();
+            break;
+        case 25:
+            test_reverseKGroup();
+            break;
+        case 27:
+            test_removeElement();
+            break;
+        case 41:
+            test_firstMissingPositive();
+            break;
+            
+        default:
+            printf("Problem (%d) not found\n", n);
+            break;
+    }
     
     return 0;
 }

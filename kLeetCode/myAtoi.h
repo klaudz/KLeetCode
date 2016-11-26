@@ -12,6 +12,9 @@
 #include "defines.h"
 
 k_extern
+int myAtoi(char *str);
+
+k_extern
 void test_myAtoi();
 
 #endif /* myAtoi_h */
