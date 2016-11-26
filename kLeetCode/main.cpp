@@ -14,6 +14,7 @@
 #include "findMedianSortedArrays.h"
 #include "longestPalindrome.h"
 #include "reverseInteger.h"
+#include "myAtoi.h"
 #include "longestCommonPrefix.h"
 #include "removeElement.h"
 #include "swapPairs.h"
@@ -28,10 +29,11 @@ int main(int argc, const char * argv[]) {
 //    test_findMedianSortedArrays();
 //    test_longestPalindrome();
 //    test_reverseInteger();
+    test_myAtoi();
 //    test_longestCommonPrefix();
 //    test_removeElement();
 //    test_swapPairs();
-    test_reverseKGroup();
+//    test_reverseKGroup();
 //    test_firstMissingPositive();
     
     return 0;
