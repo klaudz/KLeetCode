@@ -16,6 +16,7 @@
 
 #include "reverseInteger.h"
 #include "myAtoi.h"
+#include "isPalindrome.h"
 
 #include "longestCommonPrefix.h"
 
@@ -29,7 +30,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    int n = 34;
+    int n = 9;
     if (argc > 1) {
         n = myAtoi((char *)argv[1]);
     }
@@ -55,6 +56,9 @@ int main(int argc, const char * argv[]) {
             break;
         case 8:
             test_myAtoi();
+            break;
+        case 9:
+            test_isPalindrome();
             break;
             
         case 14:
