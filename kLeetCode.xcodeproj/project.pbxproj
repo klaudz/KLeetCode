@@ -23,6 +23,7 @@
 		63D9CD741DE8427F002D5652 /* lengthOfLongestSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD721DE8427F002D5652 /* lengthOfLongestSubstring.c */; };
 		63D9CD7A1DE889FA002D5652 /* longestPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD781DE889FA002D5652 /* longestPalindrome.c */; };
 		63D9CD7D1DE89A52002D5652 /* firstMissingPositive.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */; };
+		63E1CA351DEB5D2A00BD1DD0 /* mergeTwoLists.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E1CA331DEB5D2A00BD1DD0 /* mergeTwoLists.c */; };
 		63EDDD331DEA0D14009C3595 /* searchRange.c in Sources */ = {isa = PBXBuildFile; fileRef = 63EDDD311DEA0D14009C3595 /* searchRange.c */; };
 		63EDDD361DEA2781009C3595 /* isPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 63EDDD341DEA2781009C3595 /* isPalindrome.c */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,8 @@
 		63D9CD791DE889FA002D5652 /* longestPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestPalindrome.h; sourceTree = "<group>"; };
 		63D9CD7B1DE89A52002D5652 /* firstMissingPositive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = firstMissingPositive.c; sourceTree = "<group>"; };
 		63D9CD7C1DE89A52002D5652 /* firstMissingPositive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstMissingPositive.h; sourceTree = "<group>"; };
+		63E1CA331DEB5D2A00BD1DD0 /* mergeTwoLists.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mergeTwoLists.c; sourceTree = "<group>"; };
+		63E1CA341DEB5D2A00BD1DD0 /* mergeTwoLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mergeTwoLists.h; sourceTree = "<group>"; };
 		63EDDD311DEA0D14009C3595 /* searchRange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchRange.c; sourceTree = "<group>"; };
 		63EDDD321DEA0D14009C3595 /* searchRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchRange.h; sourceTree = "<group>"; };
 		63EDDD341DEA2781009C3595 /* isPalindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isPalindrome.c; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				63EDDD351DEA2781009C3595 /* isPalindrome.h */,
 				6378A66D1DDF43B00063BA37 /* longestCommonPrefix.c */,
 				6378A66E1DDF43B00063BA37 /* longestCommonPrefix.h */,
+				63E1CA331DEB5D2A00BD1DD0 /* mergeTwoLists.c */,
+				63E1CA341DEB5D2A00BD1DD0 /* mergeTwoLists.h */,
 				632438F61DE9612600BA9B6C /* swapPairs.c */,
 				632438F71DE9612600BA9B6C /* swapPairs.h */,
 				632438F91DE9AA8F00BA9B6C /* reverseKGroup.c */,
@@ -224,6 +229,7 @@
 			files = (
 				63D9CD7D1DE89A52002D5652 /* firstMissingPositive.c in Sources */,
 				633BD8EB1DDED56D0019B124 /* twoSum.c in Sources */,
+				63E1CA351DEB5D2A00BD1DD0 /* mergeTwoLists.c in Sources */,
 				633BD8EF1DDEDE4C0019B124 /* findMedianSortedArrays.c in Sources */,
 				633BD8E31DDED53A0019B124 /* main.cpp in Sources */,
 				632438F51DE95F5D00BA9B6C /* structs.c in Sources */,

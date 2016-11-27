@@ -20,8 +20,10 @@
 
 #include "longestCommonPrefix.h"
 
+#include "mergeTwoLists.h"
 #include "swapPairs.h"
 #include "reverseKGroup.h"
+
 #include "removeElement.h"
 
 #include "searchRange.h"
@@ -30,7 +32,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    int n = 9;
+    int n = 21;
     if (argc > 1) {
         n = myAtoi((char *)argv[1]);
     }
@@ -65,12 +67,16 @@ int main(int argc, const char * argv[]) {
             test_longestCommonPrefix();
             break;
             
+        case 21:
+            test_mergeTwoLists();
+            break;
         case 24:
             test_swapPairs();
             break;
         case 25:
             test_reverseKGroup();
             break;
+            
         case 27:
             test_removeElement();
             break;
