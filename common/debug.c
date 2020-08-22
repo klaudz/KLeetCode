@@ -9,7 +9,7 @@
 #include "debug.h"
 #include "includes.h"
 
-void printNums(int *nums, int n)
+void print_nums(int *nums, int n)
 {
     for (int i = 0; i < n; i++) {
         printf("%d ", nums[i]);

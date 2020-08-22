@@ -16,13 +16,13 @@ struct ListNode {
     struct ListNode *next;
 };
 
-k_extern
-struct ListNode *createListNode(int *num, int size);
+klt_extern
+struct ListNode *create_list_node(int *num, int size);
 
-k_extern
-void freeListNode(struct ListNode *l);
+klt_extern
+void free_list_node(struct ListNode *l);
 
-k_extern
-void printListNode(struct ListNode *l);
+klt_extern
+void print_list_node(struct ListNode *l);
 
 #endif /* structs_h */

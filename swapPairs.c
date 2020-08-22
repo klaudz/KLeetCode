@@ -39,29 +39,29 @@ int main(void)
     {
         int num[] = { 1, 2, 3, 4 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = swapPairs(l);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = swapPairs(l);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 1 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = swapPairs(l);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 2, 4, 3 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = swapPairs(l);
-        printListNode(r);
+        print_list_node(r);
     }
 }

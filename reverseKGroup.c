@@ -61,36 +61,36 @@ int main(void)
     {
         int num[] = { 1, 2, 3, 4, 5 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = reverseKGroup(l, 2);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 1, 2, 3, 4, 5 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = reverseKGroup(l, 3);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 1, 2, 3, 4, 5 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = reverseKGroup(l, -1);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 1, 2, 3, 4, 5 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = reverseKGroup(l, 0);
-        printListNode(r);
+        print_list_node(r);
     }
     {
         int num[] = { 1, 7, 3, 2, 7, 0, 1, 0, 0 };
         int size = sizeof(num) / sizeof(int);
-        struct ListNode *l = createListNode(num, size);
+        struct ListNode *l = create_list_node(num, size);
         struct ListNode *r = reverseKGroup(l, 4);
-        printListNode(r);
+        print_list_node(r);
     }
 }

@@ -11,16 +11,16 @@
 
 #include "defines.h"
 
-k_extern
-void insertionSort(int *nums, int n);
+klt_extern
+void insertion_sort(int *nums, int n);
 
-k_extern
-void selectionSort(int *nums, int n);
+klt_extern
+void selection_sort(int *nums, int n);
 
-k_extern
-void bubbleSort(int *nums, int n);
+klt_extern
+void bubble_sort(int *nums, int n);
 
-k_extern
-void quickSort(int *nums, int n);
+klt_extern
+void quick_sort(int *nums, int n);
 
 #endif /* sorts_h */

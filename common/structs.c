@@ -9,7 +9,7 @@
 #include "structs.h"
 #include "includes.h"
 
-struct ListNode *createListNode(int *num, int size)
+struct ListNode *create_list_node(int *num, int size)
 {
     struct ListNode *l = NULL;
     struct ListNode *tmp = NULL;
@@ -26,12 +26,12 @@ struct ListNode *createListNode(int *num, int size)
     return l;
 }
 
-void freeListNode(struct ListNode *l)
+void free_list_node(struct ListNode *l)
 {
     // Do free
 }
 
-void printListNode(struct ListNode *l)
+void print_list_node(struct ListNode *l)
 {
     if (l == NULL) {
         printf("(NULL)\n");

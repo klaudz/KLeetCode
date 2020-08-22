@@ -41,16 +41,16 @@ int main(void)
 {
     int num1[] = { 2, 4, 3 };
     int size1 = sizeof(num1) / sizeof(int);
-    struct ListNode *l1 = createListNode(num1, size1);
+    struct ListNode *l1 = create_list_node(num1, size1);
     int num2[] = { 5, 6, 4 };
     int size2 = sizeof(num2) / sizeof(int);
-    struct ListNode *l2 = createListNode(num2, size2);
+    struct ListNode *l2 = create_list_node(num2, size2);
     
     struct ListNode *r = addTwoNumbers(l1, l2);
     
-    printListNode(l1);
-    printListNode(l2);
-    printListNode(r);
+    print_list_node(l1);
+    print_list_node(l2);
+    print_list_node(r);
     
 //    Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 //    Output: 7 -> 0 -> 8

@@ -11,7 +11,7 @@
 
 #include "defines.h"
 
-k_extern
-void printNums(int *nums, int n);
+klt_extern
+void print_nums(int *nums, int n);
 
 #endif /* debug_h */

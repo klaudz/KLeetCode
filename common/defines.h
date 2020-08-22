@@ -9,11 +9,11 @@
 #ifndef defines_h
 #define defines_h
 
-#if !defined(k_extern)
+#if !defined(klt_extern)
 #  if defined(__cplusplus)
-#    define k_extern extern "C"
+#    define klt_extern extern "C"
 #  else
-#    define k_extern extern
+#    define klt_extern extern
 #  endif
 #endif
 

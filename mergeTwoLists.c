@@ -41,11 +41,11 @@ int main(void)
 {
     int num1[] = { 2, 3, 3 };
     int size1 = sizeof(num1) / sizeof(int);
-    struct ListNode *l1 = createListNode(num1, size1);
+    struct ListNode *l1 = create_list_node(num1, size1);
     int num2[] = { 2, 6, 9 };
     int size2 = sizeof(num2) / sizeof(int);
-    struct ListNode *l2 = createListNode(num2, size2);
+    struct ListNode *l2 = create_list_node(num2, size2);
     
     struct ListNode *r = mergeTwoLists(l1, l2);
-    printListNode(r);
+    print_list_node(r);
 }

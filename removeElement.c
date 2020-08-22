@@ -32,7 +32,7 @@ int removeElement(int *nums, int numsSize, int val) {
 #elif Resolve == 1
 
 int removeElement(int *nums, int numsSize, int val) {
-    quickSort(nums, numsSize);
+    quick_sort(nums, numsSize);
     int firstIndex = -1, endIndex = -1;
     for (int i = 0; i < numsSize; i++) {
         if (nums[i] == val) {

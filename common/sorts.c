@@ -8,7 +8,7 @@
 
 #include "sorts.h"
 
-void insertionSort(int *nums, int n)
+void insertion_sort(int *nums, int n)
 {
     for (int i = 1; i < n; i++) {
         int x = nums[i];
@@ -24,7 +24,7 @@ void insertionSort(int *nums, int n)
     }
 }
 
-void selectionSort(int *nums, int n)
+void selection_sort(int *nums, int n)
 {
     for (int i = 0; i < n - 1; i++) {
         int jm = i;
@@ -39,7 +39,7 @@ void selectionSort(int *nums, int n)
     }
 }
 
-void bubbleSort(int *nums, int n)
+void bubble_sort(int *nums, int n)
 {
     int i = n - 1;
     while (i > 0) {
@@ -65,7 +65,7 @@ void bubbleSort(int *nums, int n)
      */
 }
 
-void quickSort(int *nums, int n)
+void quick_sort(int *nums, int n)
 {
     if (n > 1) {
         int p = nums[0];
@@ -76,7 +76,7 @@ void quickSort(int *nums, int n)
             while (low < high && nums[low] <= p) low++;
             int tmpL = nums[high]; nums[high] = nums[low]; nums[low] = tmpL;
         }
-        quickSort(nums, low);
-        quickSort(nums+low+1, n-low-1);
+        quick_sort(nums, low);
+        quick_sort(nums+low+1, n-low-1);
     }
 }
