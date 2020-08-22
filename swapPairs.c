@@ -6,8 +6,8 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "swapPairs.h"
-#include "structs.h"
+#include "common/includes.h"
+#include "common/structs.h"
 
 struct ListNode *swapPairs(struct ListNode *head) {
     
@@ -34,7 +34,7 @@ struct ListNode *swapPairs(struct ListNode *head) {
     return newHead;
 }
 
-void test_swapPairs()
+int main(void)
 {
     {
         int num[] = { 1, 2, 3, 4 };

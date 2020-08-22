@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "reverseInteger.h"
+#include "common/includes.h"
 
 #define reverse reverseInteger
 
@@ -57,7 +57,7 @@ int reverse(int x) {
 
 #endif
 
-void test_reverseInteger()
+int main(void)
 {
     {
         int r = reverseInteger(123);

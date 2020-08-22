@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "longestPalindrome.h"
+#include "common/includes.h"
 
 char *longestPalindrome(char *s) {
     
@@ -48,7 +48,7 @@ char *longestPalindrome(char *s) {
     return ps;
 }
 
-void test_longestPalindrome()
+int main(void)
 {
     printf("%s\n", longestPalindrome("babad"));
     printf("%s\n", longestPalindrome("cbbd"));

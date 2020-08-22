@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "isPalindrome.h"
+#include "common/includes.h"
 
 bool isPalindrome(int x) {
     
@@ -19,7 +19,7 @@ bool isPalindrome(int x) {
     return (x == y);
 }
 
-void test_isPalindrome()
+int main(void)
 {
     {
         int x = 121;

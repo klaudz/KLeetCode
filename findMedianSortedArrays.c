@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "findMedianSortedArrays.h"
+#include "common/includes.h"
 
 double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Size) {
     int numsSize = nums1Size + nums2Size;
@@ -33,7 +33,7 @@ double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Si
     }
 }
 
-void test_findMedianSortedArrays()
+int main(void)
 {
     {
         int nums1[] = { 1, 3 };

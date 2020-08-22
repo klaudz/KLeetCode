@@ -6,8 +6,8 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "mergeTwoLists.h"
-#include "structs.h"
+#include "common/includes.h"
+#include "common/structs.h"
 
 struct ListNode *mergeTwoLists(struct ListNode *l1, struct ListNode *l2) {
     
@@ -37,7 +37,7 @@ struct ListNode *mergeTwoLists(struct ListNode *l1, struct ListNode *l2) {
     return l;
 }
 
-void test_mergeTwoLists()
+int main(void)
 {
     int num1[] = { 2, 3, 3 };
     int size1 = sizeof(num1) / sizeof(int);

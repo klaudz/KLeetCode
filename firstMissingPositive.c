@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "firstMissingPositive.h"
+#include "common/includes.h"
 
 int firstMissingPositive(int *nums, int numsSize) {
     
@@ -36,7 +36,7 @@ int firstMissingPositive(int *nums, int numsSize) {
     return j + 1;
 }
 
-void test_firstMissingPositive()
+int main(void)
 {
     {
         int nums[] = { 1, 2, 0 };

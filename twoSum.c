@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "twoSum.h"
+#include "common/includes.h"
 
 int *twoSum(int *nums, int numsSize, int target) {
     
@@ -23,7 +23,7 @@ int *twoSum(int *nums, int numsSize, int target) {
     return NULL;
 }
 
-void test_twoSum()
+int main(void)
 {
     int nums[] = { 2, 7, 11, 15 };
     int numsSize = sizeof(nums) / sizeof(int);

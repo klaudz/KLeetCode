@@ -6,8 +6,8 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "reverseKGroup.h"
-#include "structs.h"
+#include "common/includes.h"
+#include "common/structs.h"
 
 struct ListNode *reverseKGroup(struct ListNode *head, int k) {
     
@@ -56,7 +56,7 @@ struct ListNode *reverseKGroup(struct ListNode *head, int k) {
     return newHead;
 }
 
-void test_reverseKGroup()
+int main(void)
 {
     {
         int num[] = { 1, 2, 3, 4, 5 };

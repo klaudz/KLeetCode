@@ -6,8 +6,8 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "removeElement.h"
-#include "sorts.h"
+#include "common/includes.h"
+#include "common/sorts.h"
 
 #define Resolve 2
 
@@ -64,7 +64,7 @@ int removeElement(int *nums, int numsSize, int val) {
 
 #endif
 
-void test_removeElement()
+int main(void)
 {
     {
         int val = 3;

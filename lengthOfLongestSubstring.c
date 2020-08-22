@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "lengthOfLongestSubstring.h"
+#include "common/includes.h"
 
 int lengthOfLongestSubstring(char *s) {
     
@@ -37,7 +37,7 @@ int lengthOfLongestSubstring(char *s) {
     return lmax;
 }
 
-void test_lengthOfLongestSubstring()
+int main(void)
 {
     printf("%d\n", lengthOfLongestSubstring(""));
     printf("%d\n", lengthOfLongestSubstring("c"));

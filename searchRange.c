@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "searchRange.h"
+#include "common/includes.h"
 
 int *searchRange(int *nums, int numsSize, int target, int *returnSize) {
     
@@ -67,7 +67,7 @@ int *searchRange(int *nums, int numsSize, int target, int *returnSize) {
     return ret;
 }
 
-void test_searchRange()
+int main(void)
 {
     {
         int nums[] = { 5, 7, 7, 8, 8, 10 };

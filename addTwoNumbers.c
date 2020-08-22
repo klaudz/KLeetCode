@@ -6,8 +6,8 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "addTwoNumbers.h"
-#include "structs.h"
+#include "common/includes.h"
+#include "common/structs.h"
 
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     
@@ -37,7 +37,7 @@ struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     return r;
 }
 
-void test_addTwoNumbers()
+int main(void)
 {
     int num1[] = { 2, 4, 3 };
     int size1 = sizeof(num1) / sizeof(int);

@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "myAtoi.h"
+#include "common/includes.h"
 
 #define SUPPORTS_OCTAL 0 // Note: This problem in LeetCode doesn't support octal
 
@@ -58,7 +58,7 @@ int myAtoi(char *str) {
     return positive ? r : -r;
 }
 
-void test_myAtoi()
+int main(void)
 {
     printf("%d\n", myAtoi("0"));
     printf("%d\n", myAtoi("1"));

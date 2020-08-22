@@ -6,7 +6,7 @@
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "longestCommonPrefix.h"
+#include "common/includes.h"
 
 char *longestCommonPrefix(char **strs, int strsSize) {
     
@@ -40,7 +40,7 @@ char *longestCommonPrefix(char **strs, int strsSize) {
     return prefix;
 }
 
-void test_longestCommonPrefix()
+int main(void)
 {
     {
         char *strs[] = { "abc" };
