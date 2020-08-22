@@ -1,5 +1,5 @@
 //
-//  myAtoi.c
+//  8_string_to_integer.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/26/16.

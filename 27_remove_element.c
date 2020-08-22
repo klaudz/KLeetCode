@@ -1,5 +1,5 @@
 //
-//  removeElement.c
+//  27_remove_element.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/19/16.

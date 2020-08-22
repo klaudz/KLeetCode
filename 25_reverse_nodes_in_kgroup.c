@@ -1,5 +1,5 @@
 //
-//  reverseKGroup.c
+//  25_reverse_nodes_in_kgroup.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/26/16.

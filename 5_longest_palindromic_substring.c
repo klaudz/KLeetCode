@@ -1,5 +1,5 @@
 //
-//  longestPalindrome.c
+//  5_longest_palindromic_substring.c
 //  KLeetCode
 //
 //  Created by klaudz on 25/11/2016.

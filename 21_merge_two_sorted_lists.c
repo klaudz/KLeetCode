@@ -1,5 +1,5 @@
 //
-//  mergeTwoLists.c
+//  21_merge_two_sorted_lists.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/28/16.

@@ -1,5 +1,5 @@
 //
-//  searchRange.c
+//  34_find_first_and_last_position_of_element_in_sorted_array.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/27/16.

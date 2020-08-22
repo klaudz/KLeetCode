@@ -1,5 +1,5 @@
 //
-//  isPalindrome.c
+//  9_palindrome_number.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/27/16.

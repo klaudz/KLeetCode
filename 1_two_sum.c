@@ -1,5 +1,5 @@
 //
-//  twoSum.c
+//  1_two_sum.c
 //  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.

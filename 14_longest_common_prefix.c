@@ -1,5 +1,5 @@
 //
-//  longestCommonPrefix.c
+//  14_longest_common_prefix.c
 //  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.

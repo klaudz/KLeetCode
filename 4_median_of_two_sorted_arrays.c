@@ -1,5 +1,5 @@
 //
-//  findMedianSortedArrays.c
+//  4_median_of_two_sorted_arrays.c
 //  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.

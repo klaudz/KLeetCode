@@ -1,5 +1,5 @@
 //
-//  reverseInteger.c
+//  7_reverse_integer.c
 //  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.

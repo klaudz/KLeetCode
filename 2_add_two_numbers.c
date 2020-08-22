@@ -1,5 +1,5 @@
 //
-//  addTwoNumbers.c
+//  2_add_two_numbers.c
 //  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.

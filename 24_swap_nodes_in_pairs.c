@@ -1,5 +1,5 @@
 //
-//  swapPairs.c
+//  24_swap_nodes_in_pairs.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/26/16.
