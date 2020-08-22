@@ -1,6 +1,6 @@
 //
 //  includes.h
-//  kLeetCode
+//  KLeetCode
 //
 //  Created by klaudz on 23/8/2020.
 //  Copyright © 2020 klaudz. All rights reserved.

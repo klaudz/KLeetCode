@@ -1,6 +1,6 @@
 //
 //  defines.h
-//  kLeetCode
+//  KLeetCode
 //
 //  Created by klaudz on 18/11/2016.
 //  Copyright © 2016 klaudz. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  longestPalindrome.c
-//  kLeetCode
+//  KLeetCode
 //
 //  Created by klaudz on 25/11/2016.
 //  Copyright © 2016 klaudz. All rights reserved.

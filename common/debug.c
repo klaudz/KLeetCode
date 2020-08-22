@@ -1,6 +1,6 @@
 //
 //  debug.c
-//  kLeetCode
+//  KLeetCode
 //
 //  Created by klaudz on 11/21/16.
 //  Copyright © 2016 klaudz. All rights reserved.
