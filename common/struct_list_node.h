@@ -1,13 +1,13 @@
 //
-//  structs.h
+//  struct_list_node.h
 //  KLeetCode
 //
 //  Created by klaudz on 11/26/16.
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#ifndef structs_h
-#define structs_h
+#ifndef struct_list_node_h
+#define struct_list_node_h
 
 #include "defines.h"
 
@@ -25,4 +25,4 @@ void free_list_node(struct ListNode *l);
 klt_extern
 void print_list_node(struct ListNode *l);
 
-#endif /* structs_h */
+#endif /* struct_list_node_h */

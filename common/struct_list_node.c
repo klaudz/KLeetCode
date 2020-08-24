@@ -1,12 +1,12 @@
 //
-//  structs.c
+//  struct_list_node.c
 //  KLeetCode
 //
 //  Created by klaudz on 11/26/16.
 //  Copyright © 2016 klaudz. All rights reserved.
 //
 
-#include "structs.h"
+#include "struct_list_node.h"
 #include "includes.h"
 
 struct ListNode *create_list_node(int *num, int size)
