@@ -12,7 +12,12 @@
 class Solution {
 public:
     int fib(int N) {
+#define SOLUTION 1
+#if SOLUTION == 0
         return fib_RecursiveDP(N);
+#elif SOLUTION == 1
+        return fib_IterativeDP(N);
+#endif
     }
 #pragma mark Recursive DP
     int fib_RecursiveDP(int N) {
@@ -28,6 +33,17 @@ public:
         val = fib_RecursiveDP(N - 1, dp) + fib_RecursiveDP(N - 2, dp);
         dp[N] = val;
         return val;
+    }
+#pragma mark Iterative DP
+    int fib_IterativeDP(int N) {
+        std::vector<int> dp = std::vector<int>(N + 1, -1);
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 1;
+        for (int i = 3; i <= N; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[N];
     }
 };
 
