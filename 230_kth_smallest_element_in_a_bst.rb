@@ -2,6 +2,9 @@
 
 require_relative 'common_ruby/tree'
 
+# @param {TreeNode} root
+# @param {Integer} k
+# @return {Integer}
 def kth_smallest(root, k)
     ret = nil
     i = 0
