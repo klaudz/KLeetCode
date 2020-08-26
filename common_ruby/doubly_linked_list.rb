@@ -1,34 +1,34 @@
 
 class DoublyLinkedNode
-    attr_accessor :value, :previous_node, :next_node
-    def initialize(value, previous_node = nil, next_node = nil)
+    attr_accessor :value, :prev, :next
+    def initialize(value, prev = nil, _next = nil)
         @value = value
-        @previous_node = previous_node
-        @next_node = next_node
+        @prev = prev
+        @next = _next
     end
 end
 
 class DoublyLinkedList
-    attr_accessor :head_node, :tail_node
-    def initialize(head_node = nil, tail_node = nil)
-        @head_node = head_node
-        @tail_node = tail_node
+    attr_accessor :head, :tail
+    def initialize(head = nil, tail = nil)
+        @head = head
+        @tail = tail
     end
     def self.new_from_array(array)
-        head_node = nil
-        tail_node = nil
+        head = nil
+        tail = nil
         while array.count > 0
             value = array.shift
-            previous_node = tail_node
-            node = DoublyLinkedNode.new(value, previous_node)
-            if head_node.nil?
-                head_node = node
+            prev = tail
+            node = DoublyLinkedNode.new(value, prev)
+            if head.nil?
+                head = node
             else
-                previous_node.next_node = node
+                prev.next = node
             end
-            tail_node = node
+            tail = node
         end
-        list = self.new(head_node, tail_node)
+        list = self.new(head, tail)
         list
     end
 end
