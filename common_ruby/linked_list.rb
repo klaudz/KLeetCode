@@ -34,11 +34,11 @@ class ListNode
         end
     end
     def reverse
-        self.class.reverse_node(self) { |node| yield(node) }
-    end
-    def self.reverse_node(node)
-        return if node.nil?
-        reverse_node(node.next) { |next_node| yield(next_node) }
-        yield(node)
+        def _reverse_node(node)
+            return if node.nil?
+            _reverse_node(node.next) { |next_node| yield(next_node) }
+            yield(node)
+        end
+        _reverse_node(self) { |node| yield(node) }
     end
 end
