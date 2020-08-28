@@ -1,18 +1,26 @@
 
-require_relative 'list_node'
-
-def create_linked_list_from_array(array)
-    head = nil
-    tail = nil
-    while array.count > 0
-        val = array.shift
-        node = ListNode.new(val)
-        if head.nil?
-            head = node
-        else
-            tail.next = node
-        end
-        tail = node
+class ListNode
+    attr_accessor :val, :next
+    def initialize(val = 0, _next = nil)
+        @val = val
+        @next = _next
     end
-    head
+end
+
+class ListNode
+    def self.new_from_array(array)
+        head = nil
+        tail = nil
+        while array.count > 0
+            val = array.shift
+            node = ListNode.new(val)
+            if head.nil?
+                head = node
+            else
+                tail.next = node
+            end
+            tail = node
+        end
+        head
+    end
 end
